@@ -28,26 +28,9 @@ The application features a clean, dark interface with the iconic Monokai color s
 
 ### Option 1: Standalone Executable (Recommended for Windows)
 
-1. Download `Python Code Highlighter.exe` from the [Releases](https://github.com/WATIS-devs/codetoimage1/releases) section
+1. Download `Python Code Highlighter.exe` from the [Releases](https://github.com/WATIS-devs/codetoimage/releases) section
 2. Double-click to run - no installation needed!
 
-### Option 2: From Source
-
-1. Clone the repository:
-```bash
-git clone https://github.com/WATIS-devs/codetoimage1.git
-cd codetoimage1
-```
-
-2. Install required dependencies:
-```bash
-pip install -r requirements.txt
-```
-
-3. Run the application:
-```bash
-python src/gui_highlighter.py
-```
 
 ## Usage
 
@@ -106,22 +89,6 @@ pyinstaller --onefile --windowed --icon=icon.ico --name="Python Code Highlighter
 
 The executable will be created in the `dist/` directory.
 
-## File Structure
-
-```
-codetoimage1/
-├── src/                       # Source code
-│   ├── highlight.py            # CLI version
-│   ├── gui_highlighter.py      # GUI version
-├── release/                   # Pre-built executables
-│   └── Python Code Highlighter.exe
-├── dist/                      # Build output
-├── build/                     # Build artifacts
-├── README.md                  # This file
-├── LICENSE                    # MIT License
-├── requirements.txt           # Python dependencies
-└── .gitignore                # Git ignore rules
-```
 
 ## Color Scheme (Monokai)
 
@@ -172,5 +139,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 If you encounter any issues or have questions, please open an issue on GitHub.
 
 ---
+
 
 **Made with ❤️ by WATIS-devs**
